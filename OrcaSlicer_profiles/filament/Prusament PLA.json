@@ -1,9 +1,12 @@
 {
     "additional_cooling_fan_speed": [
-        "60"
+        "100"
+    ],
+    "close_fan_the_first_x_layers": [
+        "2"
     ],
     "default_filament_colour": [
-        "#C81515"
+        "#6981F1"
     ],
     "dont_slow_down_outer_wall": [
         "1"
@@ -24,11 +27,17 @@
         "20"
     ],
     "filament_settings_id": [
-        "My PETG"
+        "Prusament PLA"
+    ],
+    "filament_type": [
+        "PLA"
+    ],
+    "filament_vendor": [
+        "Prusament"
     ],
     "from": "User",
     "full_fan_speed_layer": [
-        "3"
+        "2"
     ],
     "hot_plate_temp": [
         "40"
@@ -38,9 +47,18 @@
     ],
     "inherits": "My Generic PETG",
     "is_custom_defined": "0",
-    "name": "My PETG",
+    "name": "Prusament PLA",
+    "nozzle_temperature": [
+        "225"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "225"
+    ],
+    "nozzle_temperature_range_high": [
+        "230"
+    ],
     "nozzle_temperature_range_low": [
-        "240"
+        "190"
     ],
     "overhang_fan_speed": [
         "100"
@@ -55,7 +73,10 @@
         "20"
     ],
     "slow_down_min_speed": [
-        "50"
+        "60"
+    ],
+    "temperature_vitrification": [
+        "60"
     ],
     "version": "2.1.1.0"
 }
